@@ -1,11 +1,13 @@
-package com.example;
+package com.jubblyjive;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
+import java.awt.*;
+
 @ConfigGroup("example")
-public interface ExampleConfig extends Config
+public interface JubblyJivePlugInConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
